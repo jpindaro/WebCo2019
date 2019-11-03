@@ -1,0 +1,91 @@
+<!-- Week 2 Assignment -->
+
+<!DOCTYPE html>        <!--specifies that we are using html5 -->
+     <html>   <!-- code goes below -->
+
+
+
+<head>  
+    <link rel="stylesheet" href="styles.css"> <!-- what does this do? -->
+
+    <style>      
+       h1 {font-family: monospace;  font-size 10px;}
+       .blue-text{color:blue;}              <!-- creates class for blue.text -->
+       h2 {font-family: sans-serif; font-size 5px;}
+       .yellow-text{color:yellow;}
+       .green-text{color:green;}
+       .large-image {width: 300px; height: auto;}
+
+
+       .green-background{background-color: green;}
+
+    </style>
+
+
+       <link href="https://fonts.google.com/specimen/Chilanka/css?family=Chilanka" rel="stylesheet"
+       type="text/css">
+
+       
+
+
+</head>
+
+<body>
+   <h1 class="green.text";>  Turtles are the best! </h1>
+ 
+
+   <!-- setting an image size -->
+   <img class="large-image"   
+   src="https://images.app.goo.gl/sjUeNWLQyBDdfQxg9" alt="something's not right">  <!-- image of turtle eating watermelon; or text-->
+
+<div class="green-background thin.red.border">
+       
+   <p class="blue-text">  
+   
+   
+   This page is for you if you like:
+       <ul> <li> <p style="font-family:Chilanka, monospace;"> turtles </ul> </li> </p>
+       <ul> <li> you like looking at turtles </li> </ul> 
+       <ul> <li>You stumbled upon it by happenstance but don't mind learning about turtles </li> </ul>
+
+   </p>
+</div>
+
+   <p> Now let's start with the basics. True or false, this is a normal shell for turtles? </p>
+
+<img class="large image" src="https://images.app.goo.gl/ScEZprBzBixLEcK86" alt="something's not right"> <!--turtle wearing a raspberry-->
+
+<form action =”/dummy-server”>  <!-- wraps info below and will send to whatever link listed -->
+
+   <label>
+      <input type="radio" name="True-False"> True 
+   </label>
+
+   <label>
+      <input type="radio" name="True-False"> False
+    </label>
+
+  <p> If you chose true, what is this shell made of? </p>
+   <input type="text" placeholder="write answer here">  
+
+  <p> If you chose false, what should the shell be made of? </p>
+   <input type="text" placeholder="write answer here">
+
+
+ <button type="submit"> Submit </button>
+
+</form>      
+
+
+
+
+
+
+
+
+
+
+</html>    <!-- end of html code -->
+
+
+

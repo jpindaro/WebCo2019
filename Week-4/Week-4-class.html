@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+
+<html>
+   <script>
+    /* will be interpretted as JavaScript  */
+
+    alert(1); /* alert yells at you; this will show a white box with the number 1 on the page */
+
+    console.log('Hello World!'); /* equivalent of print in python */
+    
+    var name = "Julia"
+    var iLike ="Apples"
+    console.log(name + 'likes' + iLike);  /* use plus signs to concatonate the variables (if you want spaces between the words, you must add them between  '  ') */
+      /* can use commas to add together; commas add spaces */
+
+      /* document.getElementById */
+
+
+    /* grab element from html */
+    var color = document.getElementById ('color');
+    function changeColorText(text) {var color = document.getElementById ('color'); color.innerText = text;}
+
+   
+   </script>
+
+   <!-- div stacks on top; span divides like div but places text side by side-->
+
+   <body> 
+        <div> My favorite color is: <span id="color"> </span></div>
+
+
+   </body>
+
+
+
+</html>
