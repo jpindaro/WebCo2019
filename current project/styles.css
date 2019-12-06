@@ -9,9 +9,9 @@
        
        
 
-       h2 {font-family: sans-serif; font-size: 5px;}
-       h2 {text-align: center; margin: 50px; padding-bottom: 30px}
-       h2 {height:30px ; width: 20px}
+       h2 {font-family: sans-serif; font-size: 20px;}
+       h2 {text-align: center; }
+       
 
        h3 {text-align: center;}
        h4 {display: inline; font-family: 'Times New Roman'; font-size: 15px }
@@ -32,10 +32,10 @@
        .purplish-text {color: #850DFD}
        .greyish-text {color:#707B7C}
        .redish-text {color:#E74C3C}
-       .maroonish-text {color:#943126}
+       .lightbluish-text {color:#37f5f5}
 
 
-       .large-image {width: 300px; height: auto;}
+       .large-image {width: 300px; height: auto; margin-right: 80px; margin-left: 400px}
 
 
        .red-background {background-color: #903934}
